@@ -1,3 +1,4 @@
+<!-- Login form HTML!-->
 <template>
           <div class="container">
              <!-- Outer Row -->
@@ -69,6 +70,8 @@
 
 
 </template>
+<!-- Script de la partie login, ce script permet de tester si l'utilisateur à bien saisie ces informations login mot de passe
+!-->
 <script>
 import { mapState, mapActions } from "vuex";
 import {
@@ -121,6 +124,7 @@ export default {
 
 }
 </script>
+<!-- Style de la platforme tu peux le mettre dans la partie resources/css !-->
 <style>
 .login{
     background: linear-gradient(-45deg, #fff, #fff, #89A099 , #89A099);

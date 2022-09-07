@@ -174,31 +174,14 @@
                     </div>
                 </div>
             </div>
-            <!--
-            <div class="col-xl-8 col-lg-7">
-                <div class="card shadow mb-4">
-
-            <div
-                class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Battery delivery </h6>
-            </div>
-
-            <div class="card-body">
-                <div class="mb-1 small"><img src="/img/delivery.gif" style="height:50px; width: 50px;"/></div>
-                <div class="progress mb-4">
-                    <div class="progress-bar" role="progressbar" style="width: 75%"
-                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </div>
         </div>
     </div>
-            -->
-        </div>
-    </div>
-    <!-- /.container-fluid -->
-</template>
+ </template>
 
 <script>
+<!-- Script qui permet d'afficher le Pie chart avec des données récupérer de l'api REST /api/tests_details
+méthode getPosts!-->
+
 import PieChart from "../PieChart";
 
 export default {
